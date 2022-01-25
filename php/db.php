@@ -1,10 +1,10 @@
 <?php
 
 function Createdb(){
-    $servername = "database-1.c7oahbesygab.us-east-2.rds.amazonaws.com";
+    $servername = "192.168.0.76";
     $username = "admin";
     $password = "admin123";
-    $dbname = "bkstore-db";
+    $dbname = "bkstoredb";
 
     // create connection
     $con = mysqli_connect($servername, $username, $password);
